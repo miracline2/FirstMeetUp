@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* IntroPage.css */
+.bg-intro {
+    background-image: url('./assets/Images/Desktop-cover.jpg');
+    background-size: cover;
+    /* background-position: center; */
+  }
+  
+  /* For mobile screens (adjust max-width as needed) */
+  @media (max-width: 640px) {
+    .bg-intro {
+      background-image: url('./assets/Images/Mobile-cover.jpg');
+    }
+  }
+  
+  @media (max-width: 198px) {
+    .bg-intro {
+      background-image: url('./assets/Images/Mobile-cover.jpg');
+    background-size: cover;
+
+    }
+  }
+  
